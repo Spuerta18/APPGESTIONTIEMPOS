@@ -41,11 +41,12 @@ body {
 .Encabezado nav a::before{
     left: 0;
     bottom: 0;
+    background-color: blue;
 }
 .Encabezado nav a::after{
     right: 0;
     top: 0;
-  
+  background-color: chartreuse;
 }
 .Encabezado nav a:hover::after,
 .Encabezado nav a:hover::before{

@@ -10,5 +10,8 @@
 // console.log(document.querySelectorAll('.clase'))
 
 // console.log(document.querySelector('form button'))
-let input =(document.getElementById('fecha'))
-console.log(input)
+// let input =(document.getElementById('fecha'))
+// console.log(input)
+
+import { registrarTiempos } from "../controllers/ControllerTiempos.js";
+document.getElementById("btnRegistrar").addEventListener("click",registrarTiempos )

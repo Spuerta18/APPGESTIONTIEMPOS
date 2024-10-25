@@ -14,5 +14,13 @@
 // console.log(input)
 
 import { registrarTiempos } from "../controllers/ControllerTiempos.js";
-import{listarProyectos,filtrarPorEmpresas,filtrarPorProyectos,filtrarPorTipoProyecto } from "../controllers/ControllerTiempos.js"
-document.getElementById("btnRegistrar").addEventListener("click",registrarTiempos )
+import{listarProyectos, filtrarPorEmpresas, filtrarPorProyectos, filtrarPorTipoProyecto } from "../controllers/Controllerproyectos.js";
+
+let btnRegistrar =document.getElementById("btnRegistrar")
+if (btnRegistrar){
+btnRegistrar.addEventListener("click",registrarTiempos )
+}
+let listaProyectos = document.getElementById("listarProyectos")
+if(listaProyectos){
+    listaProyectos.addEventListener("click",listarProyectos)
+}

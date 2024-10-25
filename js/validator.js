@@ -14,4 +14,5 @@
 // console.log(input)
 
 import { registrarTiempos } from "../controllers/ControllerTiempos.js";
+import{listarProyectos,filtrarPorEmpresas,filtrarPorProyectos,filtrarPorTipoProyecto } from "../controllers/ControllerTiempos.js"
 document.getElementById("btnRegistrar").addEventListener("click",registrarTiempos )
